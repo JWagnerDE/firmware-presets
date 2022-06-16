@@ -1,0 +1,21 @@
+#$ TITLE: Personal GPS settings 4.3
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: GPS
+#$ AUTHOR: JWagnerDE
+#$ DESCRIPTION: Personal GPS settings for Betaflight 4.3
+
+# gps
+
+set gps_provider = UBLOX
+set gps_auto_baud = ON
+set gps_rescue_descent_dist = 50
+set gps_rescue_min_dth = 50
+set gps_rescue_allow_arming_without_fix = ON
+
+feature -GPS
+
+#$ OPTION BEGIN (UNCHECKED): enable GPS?
+feature GPS
+#$ OPTION END
